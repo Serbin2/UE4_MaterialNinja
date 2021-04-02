@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Nitest.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{9FE52668-C6E8-41F6-A92D-58F677401E82}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Nitest.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NitestEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{28FD72B8-1FF5-4B78-8E2D-2C2CA5BAA463}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Nitest">
+      <UniqueIdentifier>{D07CE0BA-91FB-42A4-B843-D2F701F51B40}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Nitest\BaseMatCharacter.cpp">
+      <Filter>Source\Nitest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Nitest\BaseMatCharacter.h">
+      <Filter>Source\Nitest</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Nitest\BaseTile.cpp">
+      <Filter>Source\Nitest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Nitest\BaseTile.h">
+      <Filter>Source\Nitest</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Nitest\NinjaMaterialComponent.cpp">
+      <Filter>Source\Nitest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Nitest\NinjaMaterialComponent.h">
+      <Filter>Source\Nitest</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\Nitest\Nitest.Build.cs">
+      <Filter>Source\Nitest</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Nitest\Nitest.cpp">
+      <Filter>Source\Nitest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Nitest\Nitest.h">
+      <Filter>Source\Nitest</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

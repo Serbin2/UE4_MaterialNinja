@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Nitest",
+			"Path": "E:\\Ref\\Tst\\Nitest\\Source\\Nitest.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "NitestEditor",
+			"Path": "E:\\Ref\\Tst\\Nitest\\Source\\NitestEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
