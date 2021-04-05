@@ -2,4 +2,6 @@ E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nit
 E:\Game\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 E:\Game\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
 E:\Git\UMaterialNinja\UNinMat\Source\Nitest/BaseTile.h
+E:\Git\UMaterialNinja\UNinMat\Source\Nitest\NinjaMaterialComponent.h
+E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Inc\Nitest\NinjaMaterialComponent.generated.h
 E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Inc\Nitest\BaseTile.generated.h

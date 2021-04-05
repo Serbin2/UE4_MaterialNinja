@@ -36,4 +36,3 @@ void UNinjaMaterialComponent::ChangeMaterial(ENinijaMaterial mat)
 {
 	myMaterial = mat;
 }
-

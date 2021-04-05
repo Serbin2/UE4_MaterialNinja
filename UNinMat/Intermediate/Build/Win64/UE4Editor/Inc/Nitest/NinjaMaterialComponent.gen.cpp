@@ -33,7 +33,7 @@ void EmptyLinkFunctionForGeneratedCodeNinjaMaterialComponent() {}
 		return ENinijaMaterial_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ENinijaMaterial(ENinijaMaterial_StaticEnum, TEXT("/Script/Nitest"), TEXT("ENinijaMaterial"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_Nitest_ENinijaMaterial_Hash() { return 2337146260U; }
+	uint32 Get_Z_Construct_UEnum_Nitest_ENinijaMaterial_Hash() { return 1681021871U; }
 	UEnum* Z_Construct_UEnum_Nitest_ENinijaMaterial()
 	{
 #if WITH_HOT_RELOAD
@@ -50,11 +50,16 @@ void EmptyLinkFunctionForGeneratedCodeNinjaMaterialComponent() {}
 				{ "ENinijaMaterial::eWood", (int64)ENinijaMaterial::eWood },
 				{ "ENinijaMaterial::eStone", (int64)ENinijaMaterial::eStone },
 				{ "ENinijaMaterial::eIron", (int64)ENinijaMaterial::eIron },
+				{ "ENinijaMaterial::eRubber", (int64)ENinijaMaterial::eRubber },
+				{ "ENinijaMaterial::eFire", (int64)ENinijaMaterial::eFire },
+				{ "ENinijaMaterial::eWater", (int64)ENinijaMaterial::eWater },
 				{ "ENinijaMaterial::eMax", (int64)ENinijaMaterial::eMax },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
 				{ "BlueprintType", "true" },
+				{ "eFire.DisplayName", "MatFire" },
+				{ "eFire.Name", "ENinijaMaterial::eFire" },
 				{ "eIron.DisplayName", "MatIron" },
 				{ "eIron.Name", "ENinijaMaterial::eIron" },
 				{ "eMax.Name", "ENinijaMaterial::eMax" },
@@ -62,8 +67,12 @@ void EmptyLinkFunctionForGeneratedCodeNinjaMaterialComponent() {}
 				{ "eNone.Name", "ENinijaMaterial::eNone" },
 				{ "ePaper.DisplayName", "MatPaper" },
 				{ "ePaper.Name", "ENinijaMaterial::ePaper" },
+				{ "eRubber.DisplayName", "MatRubber" },
+				{ "eRubber.Name", "ENinijaMaterial::eRubber" },
 				{ "eStone.DisplayName", "MatStone" },
 				{ "eStone.Name", "ENinijaMaterial::eStone" },
+				{ "eWater.DisplayName", "MatWater" },
+				{ "eWater.Name", "ENinijaMaterial::eWater" },
 				{ "eWood.DisplayName", "MatWood" },
 				{ "eWood.Name", "ENinijaMaterial::eWood" },
 				{ "ModuleRelativePath", "NinjaMaterialComponent.h" },
@@ -153,6 +162,10 @@ void EmptyLinkFunctionForGeneratedCodeNinjaMaterialComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_myMaterial_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_myMaterial;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_massLevel_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_massLevel;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -182,10 +195,18 @@ void EmptyLinkFunctionForGeneratedCodeNinjaMaterialComponent() {}
 		{ "ModuleRelativePath", "NinjaMaterialComponent.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_myMaterial = { "myMaterial", nullptr, (EPropertyFlags)0x0020080000020005, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNinjaMaterialComponent, myMaterial), Z_Construct_UEnum_Nitest_ENinijaMaterial, METADATA_PARAMS(Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_myMaterial_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_myMaterial_MetaData)) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_myMaterial = { "myMaterial", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNinjaMaterialComponent, myMaterial), Z_Construct_UEnum_Nitest_ENinijaMaterial, METADATA_PARAMS(Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_myMaterial_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_myMaterial_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_massLevel_MetaData[] = {
+		{ "Category", "NinjaMaterialComponent" },
+		{ "ModuleRelativePath", "NinjaMaterialComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_massLevel = { "massLevel", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNinjaMaterialComponent, massLevel), METADATA_PARAMS(Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_massLevel_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_massLevel_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UNinjaMaterialComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_myMaterial_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_myMaterial,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_massLevel,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UNinjaMaterialComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UNinjaMaterialComponent>::IsAbstract,
@@ -214,7 +235,7 @@ void EmptyLinkFunctionForGeneratedCodeNinjaMaterialComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UNinjaMaterialComponent, 721918117);
+	IMPLEMENT_CLASS(UNinjaMaterialComponent, 2536325205);
 	template<> NITEST_API UClass* StaticClass<UNinjaMaterialComponent>()
 	{
 		return UNinjaMaterialComponent::StaticClass();

@@ -14,18 +14,18 @@ enum class ENinijaMaterial : uint8;
 #endif
 #define NITEST_NinjaMaterialComponent_generated_h
 
-#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_SPARSE_DATA
-#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_RPC_WRAPPERS \
+#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_SPARSE_DATA
+#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execChangeMaterial);
 
 
-#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
+#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execChangeMaterial);
 
 
-#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_INCLASS_NO_PURE_DECLS \
+#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUNinjaMaterialComponent(); \
 	friend struct Z_Construct_UClass_UNinjaMaterialComponent_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(UNinjaMaterialComponent)
 
 
-#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_INCLASS \
+#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_INCLASS \
 private: \
 	static void StaticRegisterNativesUNinjaMaterialComponent(); \
 	friend struct Z_Construct_UClass_UNinjaMaterialComponent_Statics; \
@@ -43,7 +43,7 @@ public: \
 	DECLARE_SERIALIZER(UNinjaMaterialComponent)
 
 
-#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_STANDARD_CONSTRUCTORS \
+#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UNinjaMaterialComponent(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UNinjaMaterialComponent) \
@@ -56,7 +56,7 @@ private: \
 public:
 
 
-#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_ENHANCED_CONSTRUCTORS \
+#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API UNinjaMaterialComponent(UNinjaMaterialComponent&&); \
@@ -67,31 +67,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UNinjaMaterialComponent); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UNinjaMaterialComponent)
 
 
-#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__myMaterial() { return STRUCT_OFFSET(UNinjaMaterialComponent, myMaterial); }
-
-
-#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_21_PROLOG
-#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_GENERATED_BODY_LEGACY \
+#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_PRIVATE_PROPERTY_OFFSET
+#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_25_PROLOG
+#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_PRIVATE_PROPERTY_OFFSET \
-	UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_SPARSE_DATA \
-	UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_RPC_WRAPPERS \
-	UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_INCLASS \
-	UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_STANDARD_CONSTRUCTORS \
+	UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_PRIVATE_PROPERTY_OFFSET \
+	UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_SPARSE_DATA \
+	UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_RPC_WRAPPERS \
+	UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_INCLASS \
+	UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_GENERATED_BODY \
+#define UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_PRIVATE_PROPERTY_OFFSET \
-	UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_SPARSE_DATA \
-	UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_RPC_WRAPPERS_NO_PURE_DECLS \
-	UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_INCLASS_NO_PURE_DECLS \
-	UNinMat_Source_Nitest_NinjaMaterialComponent_h_24_ENHANCED_CONSTRUCTORS \
+	UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_PRIVATE_PROPERTY_OFFSET \
+	UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_SPARSE_DATA \
+	UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_RPC_WRAPPERS_NO_PURE_DECLS \
+	UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_INCLASS_NO_PURE_DECLS \
+	UNinMat_Source_Nitest_NinjaMaterialComponent_h_28_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -108,6 +105,9 @@ template<> NITEST_API UClass* StaticClass<class UNinjaMaterialComponent>();
 	op(ENinijaMaterial::eWood) \
 	op(ENinijaMaterial::eStone) \
 	op(ENinijaMaterial::eIron) \
+	op(ENinijaMaterial::eRubber) \
+	op(ENinijaMaterial::eFire) \
+	op(ENinijaMaterial::eWater) \
 	op(ENinijaMaterial::eMax) 
 
 enum class ENinijaMaterial : uint8;

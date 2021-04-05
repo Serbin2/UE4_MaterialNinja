@@ -14,6 +14,10 @@ enum class ENinijaMaterial : uint8
 	eWood		UMETA(DisplayName = "MatWood"),
 	eStone		UMETA(DisplayName = "MatStone"),
 	eIron		UMETA(DisplayName = "MatIron"),
+	eRubber		UMETA(DisplayName = "MatRubber"),
+	eFire		UMETA(DisplayName = "MatFire"),
+	eWater		UMETA(DisplayName = "MatWater"),
+
 
 	eMax
 };
@@ -39,13 +43,13 @@ public:
 	UFUNCTION(BlueprintCallable)
 		void ChangeMaterial(ENinijaMaterial mat);
 
-
-protected:
+public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		ENinijaMaterial myMaterial;
 	
-
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		int massLevel = 0;
 
 
 

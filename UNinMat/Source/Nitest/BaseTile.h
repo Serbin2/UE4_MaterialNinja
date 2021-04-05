@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "NinjaMaterialComponent.h"
 #include "BaseTile.generated.h"
 
 UCLASS(Blueprintable)
@@ -12,6 +13,18 @@ class NITEST_API ABaseTile : public AActor
 	GENERATED_BODY()
 
 public:
+	UFUNCTION(BlueprintImplementableEvent)
+		void MaterialCollide(AActor* target);
+
+protected:
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		USceneComponent* Root;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		UStaticMeshComponent* TileCube;
+
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		UNinjaMaterialComponent* NinjaMaterial;
 
 
 public:	

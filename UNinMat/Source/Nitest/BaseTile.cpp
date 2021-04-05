@@ -5,11 +5,20 @@
 
 
 
+
 // Sets default values
 ABaseTile::ABaseTile()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+
+	Root = CreateDefaultSubobject<USceneComponent>(TEXT("SceneRoot"));
+	SetRootComponent(Root);
+
+	TileCube = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Box"));
+	TileCube->SetupAttachment(Root);
+
+	NinjaMaterial = CreateDefaultSubobject<UNinjaMaterialComponent>(TEXT("NinjaMaterial"));
 
 }
 
