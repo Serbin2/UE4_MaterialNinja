@@ -1,17 +1,49 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Git\UMaterialNinja).
-  Invalidating makefile for NitestEditor (TileManager.cpp modified)
-  Parsing headers for NitestEditor
-    Running UnrealHeaderTool "E:\Git\UMaterialNinja\UNinMat\Nitest.uproject" "E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\NitestEditor\Development\NitestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\kocca\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for NitestEditor in 3.1150186 seconds
+  Invalidating makefile for NitestEditor (NinjaMaterialComponent.gen.cpp modified)
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Binaries\Win64\UE4Editor-Nitest-0017.dll
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Binaries\Win64\UE4Editor-Nitest-0019.dll
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Binaries\Win64\UE4Editor-Nitest-0020.dll
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Binaries\Win64\UE4Editor-Nitest-0021.dll
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Binaries\Win64\UE4Editor-Nitest-0022.dll
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Binaries\Win64\UE4Editor-Nitest-0023.dll
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Binaries\Win64\UE4Editor-Nitest-0024.dll
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Binaries\Win64\UE4Editor-Nitest-0026.dll
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Binaries\Win64\UE4Editor-Nitest-0027.dll
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Binaries\Win64\UE4Editor-Nitest-0028.dll
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Binaries\Win64\UE4Editor-Nitest-0029.dll
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Binaries\Win64\UE4Editor-Nitest-0031.dll
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0017.lib
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0019.lib
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0020.lib
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0021.lib
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0022.lib
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0023.lib
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0024.lib
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0026.lib
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0027.lib
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0028.lib
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0029.lib
+  Deleted hot-reload file: E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0031.lib
+  Deleted hot-reload file: E:\Ref\Tst\Nitest\Binaries\Win64\UE4Editor-Nitest-0003.dll
+  Deleted hot-reload file: E:\Ref\Tst\Nitest\Binaries\Win64\UE4Editor-Nitest-0004.dll
+  Deleted hot-reload file: E:\Ref\Tst\Nitest\Binaries\Win64\UE4Editor-Nitest-0006.dll
+  Deleted hot-reload file: E:\Ref\Tst\Nitest\Binaries\Win64\UE4Editor-Nitest-0011.dll
+  Deleted hot-reload file: E:\Ref\Tst\Nitest\Binaries\Win64\UE4Editor-Nitest-0012.dll
+  Deleted hot-reload file: E:\Ref\Tst\Nitest\Binaries\Win64\UE4Editor-Nitest-0013.dll
+  Deleted hot-reload file: E:\Ref\Tst\Nitest\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0003.lib
+  Deleted hot-reload file: E:\Ref\Tst\Nitest\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0004.lib
+  Deleted hot-reload file: E:\Ref\Tst\Nitest\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0006.lib
+  Deleted hot-reload file: E:\Ref\Tst\Nitest\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0011.lib
+  Deleted hot-reload file: E:\Ref\Tst\Nitest\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0012.lib
+  Deleted hot-reload file: E:\Ref\Tst\Nitest\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0013.lib
   Building NitestEditor...
   Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 20 processes...
-    [1/5] TileManager.cpp
-    [2/5] TileManager.gen.cpp
-    [3/5] UE4Editor-Nitest-0031.lib
-       E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0031.lib 라이브러리 및 E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0031.exp 개체를 생성하고 있습니다.
-    [4/5] UE4Editor-Nitest-0031.dll
-       E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0031.suppressed.lib 라이브러리 및 E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0031.suppressed.exp 개체를 생성하고 있습니다.
-    [5/5] NitestEditor.target
-  Total time in Parallel executor: 10.89 seconds
-  Total execution time: 15.65 seconds
+  Building 4 actions with 20 processes...
+    [1/4] Nitest.init.gen.cpp
+    [2/4] UE4Editor-Nitest.lib
+       E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest.lib 라이브러리 및 E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest.exp 개체를 생성하고 있습니다.
+    [3/4] UE4Editor-Nitest.dll
+       E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest.suppressed.lib 라이브러리 및 E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest.suppressed.exp 개체를 생성하고 있습니다.
+    [4/4] NitestEditor.target
+  Total time in Parallel executor: 1.43 seconds
+  Total execution time: 3.76 seconds

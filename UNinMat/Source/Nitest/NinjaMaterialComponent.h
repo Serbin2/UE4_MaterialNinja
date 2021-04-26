@@ -51,6 +51,7 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		int massLevel = 0;
 
-
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+		FName MaterialName;
 
 };

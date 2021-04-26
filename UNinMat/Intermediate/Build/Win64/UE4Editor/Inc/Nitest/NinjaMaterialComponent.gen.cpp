@@ -166,6 +166,10 @@ void EmptyLinkFunctionForGeneratedCodeNinjaMaterialComponent() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_massLevel_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_massLevel;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MaterialName_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FNamePropertyParams NewProp_MaterialName;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -203,10 +207,18 @@ void EmptyLinkFunctionForGeneratedCodeNinjaMaterialComponent() {}
 	};
 #endif
 	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_massLevel = { "massLevel", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNinjaMaterialComponent, massLevel), METADATA_PARAMS(Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_massLevel_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_massLevel_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_MaterialName_MetaData[] = {
+		{ "Category", "NinjaMaterialComponent" },
+		{ "ModuleRelativePath", "NinjaMaterialComponent.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FNamePropertyParams Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_MaterialName = { "MaterialName", nullptr, (EPropertyFlags)0x0010000000020005, UE4CodeGen_Private::EPropertyGenFlags::Name, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UNinjaMaterialComponent, MaterialName), METADATA_PARAMS(Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_MaterialName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_MaterialName_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UNinjaMaterialComponent_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_myMaterial_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_myMaterial,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_massLevel,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UNinjaMaterialComponent_Statics::NewProp_MaterialName,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UNinjaMaterialComponent_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UNinjaMaterialComponent>::IsAbstract,
@@ -235,7 +247,7 @@ void EmptyLinkFunctionForGeneratedCodeNinjaMaterialComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UNinjaMaterialComponent, 2536325205);
+	IMPLEMENT_CLASS(UNinjaMaterialComponent, 4274561062);
 	template<> NITEST_API UClass* StaticClass<UNinjaMaterialComponent>()
 	{
 		return UNinjaMaterialComponent::StaticClass();
