@@ -2,9 +2,11 @@
 
 #pragma once
 
-#include <fstream>
+
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Misc/FileHelper.h"
+#include "Misc/Paths.h"
 #include "LevelCreater.generated.h"
 
 UCLASS()
@@ -24,4 +26,13 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		TArray<FString> LevelData;
+
+
+	UFUNCTION(BlueprintCallable)
+		bool WriteLevelToFile(TArray<FString> data, FString filePath, FString fileName);
+
+	UFUNCTION(BlueprintCallable)
+		bool ReadLevelFromFile(TArray<FString>& target, FString filePath, FString fileName);
 };

@@ -6,7 +6,7 @@
 // Sets default values
 ALevelCreater::ALevelCreater()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
 }
@@ -15,7 +15,7 @@ ALevelCreater::ALevelCreater()
 void ALevelCreater::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
@@ -23,5 +23,17 @@ void ALevelCreater::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+bool ALevelCreater::WriteLevelToFile(TArray<FString> data, FString filePath, FString fileName)
+{
+	FString tmp = filePath + fileName;
+	return FFileHelper::SaveStringArrayToFile(data, *tmp);
+}
+
+bool ALevelCreater::ReadLevelFromFile(TArray<FString>& target, FString filePath, FString fileName)
+{
+	FString tmp = filePath + fileName;
+	return FFileHelper::LoadFileToStringArray(target, *tmp);
 }
 
