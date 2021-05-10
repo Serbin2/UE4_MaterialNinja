@@ -3,7 +3,7 @@
 #pragma once
 
 
-#include "CoreMinimal.h"
+#include "EngineMinimal.h"
 #include "GameFramework/Actor.h"
 #include "Misc/FileHelper.h"
 #include "Misc/Paths.h"
@@ -35,4 +35,5 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		bool ReadLevelFromFile(TArray<FString>& target, FString filePath, FString fileName);
+
 };
