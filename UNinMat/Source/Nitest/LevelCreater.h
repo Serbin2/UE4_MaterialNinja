@@ -5,8 +5,6 @@
 
 #include "EngineMinimal.h"
 #include "GameFramework/Actor.h"
-#include "Misc/FileHelper.h"
-#include "Misc/Paths.h"
 #include "LevelCreater.generated.h"
 
 UCLASS()
@@ -31,9 +29,12 @@ public:
 
 
 	UFUNCTION(BlueprintCallable)
-		bool WriteLevelToFile(TArray<FString> data, FString filePath, FString fileName);
+		bool WriteLevelToFile(TArray<FString> data, const FString filePath, FString fileName);
 
 	UFUNCTION(BlueprintCallable)
 		bool ReadLevelFromFile(TArray<FString>& target, FString filePath, FString fileName);
+
+	UFUNCTION(BlueprintCallable)
+		bool OpenFileDialog(const FString& DialogTitle, const FString& DefaultPath, const FString& FileTypes, TArray<FString>& OutFileNames);
 
 };

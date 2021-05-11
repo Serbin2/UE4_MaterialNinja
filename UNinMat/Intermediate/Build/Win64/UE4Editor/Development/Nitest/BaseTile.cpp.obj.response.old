@@ -31,30 +31,30 @@
 /wd4244
 /wd4838
 /I .
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
 /I Runtime
-/I Runtime\Engine\Classes
-/I Runtime\Engine\Public
+/I Runtime\Slate\Public
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
+/I Runtime\ApplicationCore\Public
+/I Runtime\RHI\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
+/I Runtime\InputCore\Classes
+/I Runtime\InputCore\Public
+/I Runtime\Json\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
+/I Runtime\SlateCore\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper
+/I Runtime\ImageWrapper\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
+/I Runtime\Engine\Classes
+/I Runtime\Engine\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\NetCore
 /I Runtime\Net
 /I Runtime\Net\Core\Classes
 /I Runtime\Net\Core\Public
-/I Runtime\ApplicationCore\Public
-/I Runtime\RHI\Public
-/I Runtime\Json\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore
-/I Runtime\SlateCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\InputCore
-/I Runtime\InputCore\Classes
-/I Runtime\InputCore\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Slate
-/I Runtime\Slate\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper
-/I Runtime\ImageWrapper\Public
 /I Runtime\Messaging\Public
 /I Runtime\MessagingCommon\Public
 /I Runtime\RenderCore\Public
@@ -230,8 +230,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I E:\Ref\Tst\Nitest\Intermediate\Build\Win64\UE4Editor\Inc\Nitest
-/I E:\Ref\Tst\Nitest\Source
+/I E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Inc\Nitest
+/I E:\Git\UMaterialNinja\UNinMat\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -261,12 +261,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"E:\Ref\Tst\Nitest\Intermediate\Build\Win64\NitestEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"E:\Ref\Tst\Nitest\Intermediate\Build\Win64\NitestEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"E:\Ref\Tst\Nitest\Intermediate\Build\Win64\NitestEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"E:\Ref\Tst\Nitest\Source\Nitest\BaseTile.cpp"
-/FI"E:\Ref\Tst\Nitest\Intermediate\Build\Win64\UE4Editor\Development\Nitest\Definitions.Nitest.h"
-/Fo"E:\Ref\Tst\Nitest\Intermediate\Build\Win64\UE4Editor\Development\Nitest\BaseTile.cpp.obj"
+/FI"E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\NitestEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\NitestEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\NitestEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"E:\Git\UMaterialNinja\UNinMat\Source\Nitest\BaseTile.cpp"
+/FI"E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\Definitions.Nitest.h"
+/Fo"E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\BaseTile.cpp.obj"
 /TP
 /GR-
 /W4

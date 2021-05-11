@@ -3,6 +3,15 @@
 
 #include "LevelCreater.h"
 
+// saving file
+//#include "Misc/FileHelper.h"
+//#include "Misc/Paths.h"
+
+// file dialog
+#include "Developer/DesktopPlatform/Public/IDesktopPlatform.h"
+#include "Developer/DesktopPlatform/Public/DesktopPlatformModule.h"
+
+
 // Sets default values
 ALevelCreater::ALevelCreater()
 {
@@ -25,15 +34,82 @@ void ALevelCreater::Tick(float DeltaTime)
 
 }
 
-bool ALevelCreater::WriteLevelToFile(TArray<FString> data, FString filePath, FString fileName)
+bool ALevelCreater::WriteLevelToFile(TArray<FString> data, const FString filePath, FString fileName)
 {
-	FString tmp = filePath + fileName;
-	return FFileHelper::SaveStringArrayToFile(data, *tmp);
+	TArray<FString> OutFileNames;
+	bool result = false;
+
+	if (GEngine)
+	{
+		if (GEngine->GameViewport)
+		{
+			void* ParentWindowHandle = GEngine->GameViewport->GetWindow()->GetNativeWindow()->GetOSWindowHandle();
+			IDesktopPlatform* DesktopPlatform = FDesktopPlatformModule::Get();
+			if (DesktopPlatform)
+			{
+				
+				//Opening the file picker!
+				uint32 SelectionFlag = 0; //A value of 0 represents single file selection while a value of 1 represents multiple file selection
+				result = DesktopPlatform->SaveFileDialog(ParentWindowHandle, FString("SaveLevel"), filePath, FString(""), FString("MNLevel|*.mnl"), SelectionFlag, OutFileNames);
+			}
+		}
+	}
+
+	//FString tmp = filePath + fileName;
+	if (result)
+	{
+		return FFileHelper::SaveStringArrayToFile(data, *OutFileNames[0]);
+	}
+
+	return result;
 }
 
 bool ALevelCreater::ReadLevelFromFile(TArray<FString>& target, FString filePath, FString fileName)
 {
-	FString tmp = filePath + fileName;
-	return FFileHelper::LoadFileToStringArray(target, *tmp);
+	TArray<FString> OutFileNames;
+	bool result = false;
+
+	if (GEngine)
+	{
+		if (GEngine->GameViewport)
+		{
+			void* ParentWindowHandle = GEngine->GameViewport->GetWindow()->GetNativeWindow()->GetOSWindowHandle();
+			IDesktopPlatform* DesktopPlatform = FDesktopPlatformModule::Get();
+			if (DesktopPlatform)
+			{
+
+				//Opening the file picker!
+				uint32 SelectionFlag = 0; //A value of 0 represents single file selection while a value of 1 represents multiple file selection
+				result = DesktopPlatform->OpenFileDialog(ParentWindowHandle, FString("LoadLevel"), filePath, FString(""), FString("MNLevel|*.mnl"), SelectionFlag, OutFileNames);
+			}
+		}
+	}
+
+	//FString tmp = filePath + fileName;
+	if (result)
+	{
+		return FFileHelper::LoadFileToStringArray(target, *OutFileNames[0]);
+	}
+
+	return result;
+}
+
+bool ALevelCreater::OpenFileDialog(const FString& DialogTitle, const FString& DefaultPath, const FString& FileTypes, TArray<FString>& OutFileNames)
+{
+	if (GEngine)
+	{
+		if (GEngine->GameViewport)
+		{
+			void* ParentWindowHandle = GEngine->GameViewport->GetWindow()->GetNativeWindow()->GetOSWindowHandle();
+			IDesktopPlatform* DesktopPlatform = FDesktopPlatformModule::Get();
+			if (DesktopPlatform)
+			{
+				//Opening the file picker!
+				uint32 SelectionFlag = 0; //A value of 0 represents single file selection while a value of 1 represents multiple file selection
+				return DesktopPlatform->OpenFileDialog(ParentWindowHandle, DialogTitle, DefaultPath, FString(""), FileTypes, SelectionFlag, OutFileNames);
+			}
+		}
+	}
+	return false;
 }
 
