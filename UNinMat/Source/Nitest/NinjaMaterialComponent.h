@@ -46,10 +46,10 @@ public:
 public:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		ENinijaMaterial myMaterial;
+		ENinijaMaterial myMaterial = ENinijaMaterial::eWood;
 	
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-		int massLevel = 0;
+		int massLevel = 2;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 		FName MaterialName;
