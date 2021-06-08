@@ -1,0 +1,5 @@
+---,MatName,GravityScale,WalkSpeed,JumpSpeed,AirControl,Material,Weight,WeakFire
+Paper,Paper,4,300,2000,0.5,Material'/Game/Materials/M_Paper.M_Paper',1,TRUE
+Iron,Iron,8,250,2000,0.2,Material'/Game/Materials/M_Iron.M_Iron',3,FALSE
+Wood,Wood,4,300,1500,0.4,Material'/Game/Materials/M_Wood.M_Wood',2,TRUE
+Stone,Stonr,6,270,1900,0.3,M_Stone,3,FALSE
