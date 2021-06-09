@@ -37,4 +37,7 @@ public:
 	UFUNCTION(BlueprintCallable)
 		bool OpenFileDialog(const FString& DialogTitle, const FString& DefaultPath, const FString& FileTypes, TArray<FString>& OutFileNames);
 
+	UFUNCTION(BlueprintCallable)
+		bool LoadLevelFromName(TArray<FString>& OutData, const FString Name);
+
 };

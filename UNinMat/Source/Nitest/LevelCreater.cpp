@@ -88,6 +88,7 @@ bool ALevelCreater::ReadLevelFromFile(TArray<FString>& target, FString filePath,
 	//FString tmp = filePath + fileName;
 	if (result)
 	{
+		UE_LOG(LogTemp, Log, TEXT("%s"),*OutFileNames[0]);
 		return FFileHelper::LoadFileToStringArray(target, *OutFileNames[0]);
 	}
 
@@ -111,5 +112,13 @@ bool ALevelCreater::OpenFileDialog(const FString& DialogTitle, const FString& De
 		}
 	}
 	return false;
+}
+
+bool ALevelCreater::LoadLevelFromName(TArray<FString>& OutData, const FString Name)
+{
+	FString tmp;
+	tmp = FPaths::ProjectDir();
+	tmp = tmp + Name;
+	return FFileHelper::LoadFileToStringArray(OutData, *tmp);
 }
 

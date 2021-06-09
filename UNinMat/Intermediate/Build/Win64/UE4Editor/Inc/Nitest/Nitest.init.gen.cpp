@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeNitest_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xBAF13F9C,
+				0x8F342784,
 				0x093B572E,
 				METADATA_PARAMS(nullptr, 0)
 			};
