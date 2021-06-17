@@ -1,17 +1,30 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Git\UMaterialNinja).
+﻿  Cleaning NitestEditor and UnrealHeaderTool binaries...
+  Using 'git status' to determine working set for adaptive non-unity build (E:\Git\UMaterialNinja).
+  Creating makefile for NitestEditor (no existing makefile)
   Parsing headers for NitestEditor
     Running UnrealHeaderTool "E:\Git\UMaterialNinja\UNinMat\Nitest.uproject" "E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\NitestEditor\Development\NitestEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\kocca\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
-  Reflection code generated for NitestEditor in 3.164519 seconds
+  Reflection code generated for NitestEditor in 6.2040982 seconds
   Building NitestEditor...
   Using Visual Studio 2019 14.28.29913 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 6 actions with 20 processes...
-    [1/6] Nitest.init.gen.cpp
-    [2/6] LevelCreater.cpp
-    [3/6] LevelCreater.gen.cpp
-    [4/6] UE4Editor-Nitest-0006.lib
-       E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0006.lib 라이브러리 및 E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0006.exp 개체를 생성하고 있습니다.
-    [5/6] UE4Editor-Nitest-0006.dll
-       E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0006.suppressed.lib 라이브러리 및 E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest-0006.suppressed.exp 개체를 생성하고 있습니다.
-    [6/6] NitestEditor.target
-  Total time in Parallel executor: 4.67 seconds
-  Total execution time: 8.37 seconds
+  Building 17 actions with 20 processes...
+    [1/17] Default.rc2
+    [2/17] SharedPCH.Engine.ShadowErrors.cpp
+    [3/17] Nitest.cpp
+    [4/17] BaseTile.cpp
+    [5/17] NinjaMaterialComponent.cpp
+    [6/17] Nitest.init.gen.cpp
+    [7/17] BaseMatCharacter.cpp
+    [8/17] TileManager.cpp
+    [9/17] BaseTile.gen.cpp
+    [10/17] TileManager.gen.cpp
+    [11/17] NinjaMaterialComponent.gen.cpp
+    [12/17] BaseMatCharacter.gen.cpp
+    [13/17] LevelCreater.cpp
+    [14/17] LevelCreater.gen.cpp
+    [15/17] UE4Editor-Nitest.lib
+       E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest.lib 라이브러리 및 E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest.exp 개체를 생성하고 있습니다.
+    [16/17] UE4Editor-Nitest.dll
+       E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest.suppressed.lib 라이브러리 및 E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\UE4Editor-Nitest.suppressed.exp 개체를 생성하고 있습니다.
+    [17/17] NitestEditor.target
+  Total time in Parallel executor: 26.75 seconds
+  Total execution time: 40.44 seconds
