@@ -1,11 +1,11 @@
-E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\Definitions.Nitest.h
-E:\Git\UMaterialNinja\UNinMat\Source\Nitest\BaseMatCharacter.h
-E:\Game\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
-E:\Game\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
-E:\Game\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
-E:\Game\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
-E:\Game\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
-E:\Game\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
-E:\Git\UMaterialNinja\UNinMat\Source\Nitest\NinjaMaterialComponent.h
-E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Inc\Nitest\NinjaMaterialComponent.generated.h
-E:\Git\UMaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Inc\Nitest\BaseMatCharacter.generated.h
+C:\Users\thna\Documents\JihoGit\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\Definitions.Nitest.h
+C:\Users\thna\Documents\JihoGit\UNinMat\Source\Nitest\BaseMatCharacter.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.26\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\thna\Documents\JihoGit\UNinMat\Source\Nitest\NinjaMaterialComponent.h
+C:\Users\thna\Documents\JihoGit\UNinMat\Intermediate\Build\Win64\UE4Editor\Inc\Nitest\NinjaMaterialComponent.generated.h
+C:\Users\thna\Documents\JihoGit\UNinMat\Intermediate\Build\Win64\UE4Editor\Inc\Nitest\BaseMatCharacter.generated.h
