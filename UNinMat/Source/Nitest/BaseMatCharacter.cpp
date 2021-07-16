@@ -10,8 +10,11 @@ ABaseMatCharacter::ABaseMatCharacter()
 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
-	NinjaMaterial = CreateDefaultSubobject<UNinjaMaterialComponent>(TEXT("NinjaMaterial"));
+	//NinjaMaterial = CreateDefaultSubobject<UNinjaMaterialComponent>(TEXT("NinjaMaterial"));
 	//NinjaMaterial->SetupAttachment()
+
+	//Root = CreateDefaultSubobject<USceneComponent>(TEXT("SceneRoot"));
+	//SetRootComponent(CreateDefaultSubobject<UBoxComponent>(TEXT("SceneRoot")));
 
 }
 

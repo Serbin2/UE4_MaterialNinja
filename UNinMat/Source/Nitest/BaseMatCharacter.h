@@ -18,8 +18,8 @@ public:
 
 
 protected:
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
-		UNinjaMaterialComponent* NinjaMaterial;
+	//UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	//	UNinjaMaterialComponent* NinjaMaterial;
 
 public:
 	// Sets default values for this character's properties

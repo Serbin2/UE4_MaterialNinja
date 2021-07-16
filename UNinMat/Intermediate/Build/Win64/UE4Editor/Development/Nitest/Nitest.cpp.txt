@@ -1,2 +1,2 @@
-C:\Users\thna\Documents\JihoGit\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\Definitions.Nitest.h
-C:\Users\thna\Documents\JihoGit\UNinMat\Source\Nitest\Nitest.h
+E:\JHGit\MaterialNinja\UNinMat\Intermediate\Build\Win64\UE4Editor\Development\Nitest\Definitions.Nitest.h
+E:\JHGit\MaterialNinja\UNinMat\Source\Nitest\Nitest.h

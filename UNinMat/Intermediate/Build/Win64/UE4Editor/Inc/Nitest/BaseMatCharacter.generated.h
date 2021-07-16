@@ -58,10 +58,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABaseMatCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ABaseMatCharacter)
 
 
-#define UNinMat_Source_Nitest_BaseMatCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__NinjaMaterial() { return STRUCT_OFFSET(ABaseMatCharacter, NinjaMaterial); }
-
-
+#define UNinMat_Source_Nitest_BaseMatCharacter_h_15_PRIVATE_PROPERTY_OFFSET
 #define UNinMat_Source_Nitest_BaseMatCharacter_h_12_PROLOG
 #define UNinMat_Source_Nitest_BaseMatCharacter_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

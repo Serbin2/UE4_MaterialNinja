@@ -17,7 +17,6 @@ void EmptyLinkFunctionForGeneratedCodeBaseMatCharacter() {}
 	NITEST_API UClass* Z_Construct_UClass_ABaseMatCharacter();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_Nitest();
-	NITEST_API UClass* Z_Construct_UClass_UNinjaMaterialComponent_NoRegister();
 // End Cross Module References
 	void ABaseMatCharacter::StaticRegisterNativesABaseMatCharacter()
 	{
@@ -32,11 +31,6 @@ void EmptyLinkFunctionForGeneratedCodeBaseMatCharacter() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NinjaMaterial_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_NinjaMaterial;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -53,17 +47,6 @@ void EmptyLinkFunctionForGeneratedCodeBaseMatCharacter() {}
 		{ "ModuleRelativePath", "BaseMatCharacter.h" },
 	};
 #endif
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ABaseMatCharacter_Statics::NewProp_NinjaMaterial_MetaData[] = {
-		{ "Category", "BaseMatCharacter" },
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "BaseMatCharacter.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ABaseMatCharacter_Statics::NewProp_NinjaMaterial = { "NinjaMaterial", nullptr, (EPropertyFlags)0x00200800000a001d, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ABaseMatCharacter, NinjaMaterial), Z_Construct_UClass_UNinjaMaterialComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ABaseMatCharacter_Statics::NewProp_NinjaMaterial_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ABaseMatCharacter_Statics::NewProp_NinjaMaterial_MetaData)) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ABaseMatCharacter_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ABaseMatCharacter_Statics::NewProp_NinjaMaterial,
-	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ABaseMatCharacter_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ABaseMatCharacter>::IsAbstract,
 	};
@@ -73,11 +56,11 @@ void EmptyLinkFunctionForGeneratedCodeBaseMatCharacter() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		Z_Construct_UClass_ABaseMatCharacter_Statics::PropPointers,
+		nullptr,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
 		0,
-		UE_ARRAY_COUNT(Z_Construct_UClass_ABaseMatCharacter_Statics::PropPointers),
+		0,
 		0,
 		0x009000A4u,
 		METADATA_PARAMS(Z_Construct_UClass_ABaseMatCharacter_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_ABaseMatCharacter_Statics::Class_MetaDataParams))
@@ -91,7 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeBaseMatCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABaseMatCharacter, 1773370543);
+	IMPLEMENT_CLASS(ABaseMatCharacter, 2489784338);
 	template<> NITEST_API UClass* StaticClass<ABaseMatCharacter>()
 	{
 		return ABaseMatCharacter::StaticClass();
