@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Nitest.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{57D20AC2-BC26-4A26-AA10-BDD6B0F1DE2A}</UniqueIdentifier>
+      <UniqueIdentifier>{37477270-C167-436D-81E6-FEE6C4DACA77}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Nitest.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{3A63244C-3343-4763-830B-1322E1BC16B4}</UniqueIdentifier>
+      <UniqueIdentifier>{8EED83A7-5E62-4714-A004-F34ADDB16B54}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Nitest">
-      <UniqueIdentifier>{E9EE8D96-EC8D-4D3A-8966-9E34B6D951DA}</UniqueIdentifier>
+      <UniqueIdentifier>{94DB9A57-BAC9-401A-9275-CE1D31D310A5}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\Nitest\BaseMatCharacter.cpp">
       <Filter>Source\Nitest</Filter>
@@ -45,6 +45,12 @@
       <Filter>Source\Nitest</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Nitest\LevelCreater.h">
+      <Filter>Source\Nitest</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Nitest\MN_NinjaCharacter.cpp">
+      <Filter>Source\Nitest</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Nitest\MN_NinjaCharacter.h">
       <Filter>Source\Nitest</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Nitest\NinjaMaterialComponent.cpp">

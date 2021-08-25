@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "Nitest",
-			"Path": "E:\\Git\\UMaterialNinja\\UNinMat\\Source\\Nitest.Target.cs",
+			"Path": "E:\\JHGit\\MaterialNinja\\UNinMat\\Source\\Nitest.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "NitestEditor",
-			"Path": "E:\\Git\\UMaterialNinja\\UNinMat\\Source\\NitestEditor.Target.cs",
+			"Path": "E:\\JHGit\\MaterialNinja\\UNinMat\\Source\\NitestEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
